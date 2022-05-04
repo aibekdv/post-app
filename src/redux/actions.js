@@ -1,0 +1,5 @@
+export const getAllPost = (arr) => ({ type: 'GET_ALL_POST', payload: arr })
+export const filterById = () => ({ type: 'FILTER_BY_ID' })
+export const filterByName = () => ({ type: 'FILTER_BY_NAME' })
+export const filterByDesc = () => ({ type: 'FILTER_BY_DESC' })
+export const searchByTitle = (title) => ({ type: 'SEARCH_BY_TITLE', payload: title })

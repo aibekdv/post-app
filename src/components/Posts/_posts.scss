@@ -1,0 +1,44 @@
+.posts__table {
+    width: 100%;
+    border-collapse: collapse;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    thead {
+        background-color: #474955;
+        height: 54px;
+        color: white;
+        border: 1px solid #e3e6ec;
+        th {
+            padding-left: 10px;
+        }
+
+        .header_btn{
+            cursor: pointer;
+            min-width: 100px;
+            text-align: center;
+        }
+    }
+    tbody {
+        .table_border {
+            border-bottom: 1px solid #e3e6ec;
+        }
+        td {
+            padding: 12px;
+        }
+    }
+}
+
+.posts__item{
+    &.id {
+        text-align: center;
+    }
+    &:first-child{
+        border-left: 1px solid #e3e6ec;
+        border-right: 1px solid #e3e6ec;
+    }
+    &:last-child{
+        border-left: 1px solid #e3e6ec;
+        border-right: 1px solid #e3e6ec;
+    }
+}
